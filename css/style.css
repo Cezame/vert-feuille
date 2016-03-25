@@ -1,7 +1,7 @@
 .container {}
 
 body {
-  background: url("https://images.unsplash.com/photo-1416169607655-0c2b3ce2e1cc?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300") no-repeat center center fixed;
+  background: url("/images/treepanorama.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +41,7 @@ a.navbar-brand {
 }
 
 .navbar ul li a:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
 }
 
@@ -50,9 +50,11 @@ a.navbar-brand {
 }
 
 .content {
-  background: rgba(0, 0, 0, 0.65);
+  margin: 50px;
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   color: white;
   text-align: center;
   font-size: 20px;
+  padding: 15px;
 }
